@@ -1,3 +1,4 @@
+/*
 package com.example.demo.config.security;
 
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
@@ -5,3 +6,4 @@ import org.springframework.security.config.annotation.method.configuration.Enabl
 @EnableGlobalMethodSecurity(prePostEnabled = true)
 public class GlobalMethodSecurityConfiguration {
 }
+*/

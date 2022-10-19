@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/public")
-public class PulicController {
+public class PublicController {
 
-    @GetMapping("/ping")
+    @GetMapping(value = "/ping")
     public String healthCheck(){
         return "200";
     }
